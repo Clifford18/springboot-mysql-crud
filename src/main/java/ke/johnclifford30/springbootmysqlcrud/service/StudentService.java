@@ -1,7 +1,11 @@
 package ke.johnclifford30.springbootmysqlcrud.service;
 
+import ke.johnclifford30.springbootmysqlcrud.domain.Student;
+import ke.johnclifford30.springbootmysqlcrud.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class StudentService {
