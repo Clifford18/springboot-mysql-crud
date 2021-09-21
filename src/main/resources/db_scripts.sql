@@ -17,4 +17,3 @@ CREATE TABLE `students` (
  INSERT INTO students (course, fee, student_name)
 		VALUES ('Java','12000','johnclifford'),
                ('MySQL','12000','CJ');
-				
