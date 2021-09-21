@@ -1,9 +1,14 @@
 package ke.johnclifford30.springbootmysqlcrud.controller;
 
+import ke.johnclifford30.springbootmysqlcrud.domain.Student;
 import ke.johnclifford30.springbootmysqlcrud.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 @Controller
 public class StudentController {
